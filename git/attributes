@@ -1,0 +1,4 @@
+# Binary files should not be modified by EOL settings
+*.png binary
+*.jpg binary
+*.gif binary
