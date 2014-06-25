@@ -40,7 +40,7 @@ To install manually:
 
 ``` sh
 mkdir -p ~/Code/my
-git clone https://github.com/krohrbaugh/dotfiles.git ~/Code/my/dotfiles
+git clone https://github.com/hussfelt/dotfiles.git ~/Code/my/dotfiles
 cd ~/Code/my/dotfiles
 ./script/bootstrap
 ```
@@ -100,4 +100,4 @@ Many aspects of this setup is based on (if not straight copied) from other peopl
 [3]: http://wbond.net/sublime_packages/package_control/installation
 [4]: https://github.com/holman/dotfiles/
 [5]: https://github.com/krohrbaugh/dotfiles
-[my-boxen]: https://github.com/krohrbaugh/my-boxen
+[my-boxen]: https://github.com/hussfelt/my-boxen
