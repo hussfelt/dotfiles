@@ -1,0 +1,15 @@
+
+[hub]
+protocol = https
+
+[credential]
+helper = /opt/boxen/bin/boxen-git-credential
+
+[core]
+excludesfile = /opt/boxen/config/git/gitignore
+[user]
+	name = Henrik Hussfelt
+	email = henrik.hussfelt@gmail.com
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
