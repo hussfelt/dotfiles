@@ -26,3 +26,6 @@ protocol = https
 
 #[commit]
 #	gpgsign = true
+
+[core]
+    editor = 'subl' --wait
