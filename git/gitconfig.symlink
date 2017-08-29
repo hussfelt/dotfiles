@@ -1,11 +1,9 @@
 [hub]
 protocol = https
 
-#[credential]
-#helper = /opt/boxen/bin/boxen-git-credential
+[core]
+excludesfile = ~/.gitignore
 
-#[core]
-#excludesfile = /opt/boxen/config/git/gitignore
 [user]
 	name = Henrik Hussfelt
 	email = henrik@henrik.se

@@ -55,6 +55,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH=$HOME/bin:/usr/local/bin:~/bin:$PATH
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -98,3 +99,6 @@ export NVM_DIR="/Users/hussfelt/.nvm"
 
 # Add ssh key
 ssh-add .ssh/id_rsa
+
+# Setup Digital Route
+alias git-dr='git config user.email "henrik.hussfelt@digitalroute.com"; git config user.name "Henrik Hussfelt"'
