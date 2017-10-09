@@ -103,3 +103,5 @@ ssh-add .ssh/id_rsa
 
 # Setup Digital Route
 alias git-dr='git config user.email "henrik.hussfelt@digitalroute.com"; git config user.name "Henrik Hussfelt"'
+
+alias git-status='find . -type d -name ".git" | while read dir ; do sh -c "cd $dir/../ && echo \"\nGIT STATUS IN ${dir//\.git/}\" && git status -s" ; done'
